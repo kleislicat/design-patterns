@@ -10,7 +10,7 @@ public class Client {
 
     System.out.println(s1);
     Swordsman s2 = (Swordsman) s1.clone();
-    System.out.println("Cloned swordsman:" + s2);
+    System.out.println("Cloned swordsman: " + s2);
 
   }
 
