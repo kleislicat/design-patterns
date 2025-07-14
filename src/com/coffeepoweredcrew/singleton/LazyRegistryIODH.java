@@ -12,10 +12,10 @@ public class LazyRegistryIODH {
 
   private static class RegistryHolder {
 
-    static LazyRegistryIODH INSTANACE = new LazyRegistryIODH();
+    static LazyRegistryIODH INSTANCE = new LazyRegistryIODH();
   }
 
   public static LazyRegistryIODH getInstance() {
-    return RegistryHolder.INSTANACE;
+    return RegistryHolder.INSTANCE;
   }
 }
