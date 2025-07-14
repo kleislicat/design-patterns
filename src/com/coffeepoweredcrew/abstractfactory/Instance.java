@@ -2,11 +2,12 @@ package com.coffeepoweredcrew.abstractfactory;
 
 //Represents an abstract product
 public interface Instance {
-    enum Capacity{micro, small, large}
 
-    void start();
+  enum Capacity {micro, small, large}
 
-    void attachStorage(Storage storage);
+  void start();
 
-    void stop();
+  void attachStorage(Storage storage);
+
+  void stop();
 }
